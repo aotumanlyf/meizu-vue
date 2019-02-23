@@ -1,0 +1,63 @@
+/* 重置样式 start */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td, /* table elements 表格元素 */
+div, span, header, footer, nav{
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  color: #333333;
+  /*background-color: #faf7f0;*/
+  /*background-color: #ebebeb;;*/
+  position: relative;
+}
+/** 设置默认字体 **/
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal;}
+em, i { font-style: normal; } /* 将斜体扶正 */
+/** 重置列表元素 **/
+ul, ol { list-style: none; }
+/** 重置文本格式元素 **/
+a { text-decoration: none; color: #333; cursor: pointer }
+/** 重置表单元素 **/
+fieldset, img { border: 0; } /* img 搭车：让链接里的 img 无边框 */
+button, input, select, textarea {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+/** 重置表格元素 **/
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* 重置 HTML5 元素 */
+article, aside, details, figcaption, figure, footer,header, menu, nav, section,
+summary, time, mark, audio, video {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/* 去掉获取焦点的边框变亮*/
+input[type=text]:focus {
+  outline:0
+}
+
+input{
+  outline-style: none;
+  vertical-align: top;
+  background-color: #fff;
+  margin-right: 0;
+}
+
+
+img{
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  /*height: 100%;*/
+}
+
